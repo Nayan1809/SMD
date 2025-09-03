@@ -11,8 +11,8 @@ interface SidebarProps {
 export function Sidebar({ activeTab, setActiveTab, darkMode, toggleDarkMode }: SidebarProps) {
   const navigationItems = [
     { id: 'dashboard', label: 'Dashboard', icon: BarChart3 },
-    { id: 'students', label: 'Students', icon: Users },
-    { id: 'courses', label: 'Courses', icon: BookOpen },
+    { id: '', label: 'Students', icon: Users },
+    { id: '', label: 'Courses', icon: BookOpen },
     { id: '', label: 'Help & Guide', icon: HelpCircle },
   ];
 
