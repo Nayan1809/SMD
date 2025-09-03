@@ -13,7 +13,7 @@ export function Sidebar({ activeTab, setActiveTab, darkMode, toggleDarkMode }: S
     { id: 'dashboard', label: 'Dashboard', icon: BarChart3 },
     { id: 'students', label: 'Students', icon: Users },
     { id: 'courses', label: 'Courses', icon: BookOpen },
-    { id: 'help', label: 'Help & Guide', icon: HelpCircle },
+    { id: '', label: 'Help & Guide', icon: HelpCircle },
   ];
 
   return (
